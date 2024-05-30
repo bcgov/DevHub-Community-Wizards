@@ -1,0 +1,16 @@
+site_name: "DevHub Community Wizards"
+site_description: "This repository contains community contributed Wizards that are used by DevHub"
+docs_dir: "docs"
+repo_url: "https://github.com/bcgov/DevHub-Community-Wizards"
+edit_uri: edit/main/docs
+nav:
+    - Introduction: index.md
+    - Getting started: getting-started.md
+    - Configuration: configuration.md
+    - Tips and tricks: tips-and-tricks.md
+    - About us: about-us.md
+plugins:
+    - techdocs-core
+    - git-revision-date-localized
+markdown_extensions:
+    - md_in_html

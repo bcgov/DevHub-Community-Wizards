@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devhub-community-wizards
+  title: DevHub Community Wizards
+  description: This repository contains community contributed Wizards that are
+    used by DevHub
+  annotations:
+    github.com/project-slug: bcgov/DevHub-Community-Wizards
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/product_name: DevHub
+    developer.gov.bc.ca/source_template: default/docs-template
+    backstage.io/source-template: template:default/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:bcgov/developer-experience
